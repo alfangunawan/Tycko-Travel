@@ -1,0 +1,86 @@
+{
+    "B1": {
+        "booking_id": "B1",
+        "amount": "1",
+        "payment_method": "debit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B4": {
+        "booking_id": "B4",
+        "amount": "12312312321",
+        "payment_method": "credit",
+        "bank": "BNI",
+        "status": "PAID"
+    },
+    "B5": {
+        "booking_id": "B5",
+        "amount": "2",
+        "payment_method": "debit",
+        "bank": "Mandiri",
+        "status": "PAID"
+    },
+    "B6": {
+        "booking_id": "B6",
+        "amount": "2",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B7": {
+        "booking_id": "B7",
+        "amount": "2",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B8": {
+        "booking_id": "B8",
+        "amount": "2",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B9": {
+        "booking_id": "B9",
+        "amount": "1",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B10": {
+        "booking_id": "B10",
+        "amount": "1",
+        "payment_method": "credit",
+        "bank": "BNI",
+        "status": "PAID"
+    },
+    "B11": {
+        "booking_id": "B11",
+        "amount": "10000",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B12": {
+        "booking_id": "B12",
+        "amount": "10000",
+        "payment_method": "debit",
+        "bank": "BNI",
+        "status": "PAID"
+    },
+    "B13": {
+        "booking_id": "B13",
+        "amount": "6000000",
+        "payment_method": "credit",
+        "bank": "BCA",
+        "status": "PAID"
+    },
+    "B15": {
+        "booking_id": "B15",
+        "amount": "5500000",
+        "payment_method": "e-wallet",
+        "bank": "OVO",
+        "status": "PAID"
+    }
+}

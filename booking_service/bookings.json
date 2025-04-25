@@ -1,0 +1,107 @@
+{
+    "B1": {
+        "booking_id": "B1",
+        "user": "a",
+        "hotel": "2",
+        "amount": "1",
+        "status": "CONFIRMED"
+    },
+    "B2": {
+        "booking_id": "B2",
+        "user": "a",
+        "hotel": "2",
+        "amount": "1",
+        "status": "PENDING"
+    },
+    "B3": {
+        "booking_id": "B3",
+        "user": "a",
+        "hotel": "a",
+        "amount": "1",
+        "status": "PENDING"
+    },
+    "B4": {
+        "booking_id": "B4",
+        "user": "a",
+        "hotel": "a",
+        "amount": "12312312321",
+        "status": "CONFIRMED"
+    },
+    "B5": {
+        "booking_id": "B5",
+        "user": "a",
+        "hotel": "a",
+        "amount": "2",
+        "status": "CONFIRMED"
+    },
+    "B6": {
+        "booking_id": "B6",
+        "user": "a",
+        "hotel": "a",
+        "amount": "2",
+        "status": "CONFIRMED"
+    },
+    "B7": {
+        "booking_id": "B7",
+        "user": "a",
+        "hotel": "a",
+        "amount": "2",
+        "status": "CONFIRMED"
+    },
+    "B8": {
+        "booking_id": "B8",
+        "user": "a",
+        "hotel": "a",
+        "amount": "2",
+        "status": "CONFIRMED"
+    },
+    "B9": {
+        "booking_id": "B9",
+        "user": "a",
+        "hotel": "a",
+        "amount": "1",
+        "status": "CONFIRMED"
+    },
+    "B10": {
+        "booking_id": "B10",
+        "user": "a",
+        "hotel": "a",
+        "amount": "1",
+        "status": "CONFIRMED"
+    },
+    "B11": {
+        "booking_id": "B11",
+        "user": "pio",
+        "hotel": "pio valley",
+        "amount": "10000",
+        "status": "CONFIRMED"
+    },
+    "B12": {
+        "booking_id": "B12",
+        "user": "zarof",
+        "hotel": "zarof hotel",
+        "amount": "10000",
+        "status": "CONFIRMED"
+    },
+    "B13": {
+        "booking_id": "B13",
+        "user": "pio",
+        "hotel": "The Ritz-Carlton Jakarta",
+        "amount": "6000000",
+        "status": "CONFIRMED"
+    },
+    "B14": {
+        "booking_id": "B14",
+        "user": "pio jr",
+        "hotel": "The St. Regis Bali Resort",
+        "amount": "9000000",
+        "status": "PENDING"
+    },
+    "B15": {
+        "booking_id": "B15",
+        "user": "pio jr jr",
+        "hotel": "The Ritz-Carlton Jakarta",
+        "amount": "5500000",
+        "status": "CONFIRMED"
+    }
+}
