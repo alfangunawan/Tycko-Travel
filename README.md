@@ -1,74 +1,47 @@
-# Travel Agent Booking System
+# Sistem Pemesanan Travel Agent
 
-A modern microservices-based hotel booking system that allows users to book luxury hotels across Indonesia and process payments seamlessly.
+Sistem pemesanan hotel berbasis microservices modern yang memungkinkan pengguna untuk memesan hotel mewah di seluruh Indonesia dan memproses pembayaran dengan mudah.
 
-## 🌟 Features
+## 🌟 Fitur
 
-- Browse premium hotels across Indonesia
-- Easy booking process
-- Multiple payment methods support
-- Real-time booking status tracking
-- Secure payment processing
+- Jelajahi hotel-hotel mewah di seluruh Indonesia
+- Proses pemesanan yang mudah
+- Dukungan berbagai metode pembayaran
+- Pelacakan status pemesanan secara real-time
+- Pemrosesan pembayaran yang aman
 
-## 🏗️ Architecture
+## 🏗️ Arsitektur
 
-The system consists of two microservices:
+Sistem terdiri dari dua microservices:
 
-1. **Booking Service** (Port 5001)
-   - Manages hotel listings
-   - Handles booking creation
-   - Tracks booking status
-   - Provides booking management interface
+1. **Layanan Pemesanan** (Port 5001)
+   - Mengelola daftar hotel
+   - Menangani pembuatan pemesanan
+   - Melacak status pemesanan
+   - Menyediakan antarmuka manajemen pemesanan
 
-2. **Payment Service** (Port 5002)
-   - Processes payments
-   - Supports multiple payment methods
-   - Manages payment status
-   - Provides payment history
+2. **Layanan Pembayaran** (Port 5002)
+   - Memproses pembayaran
+   - Mendukung berbagai metode pembayaran
+   - Mengelola status pembayaran
+   - Menyediakan riwayat pembayaran
 
-## 🏨 Available Hotels
+## 🚀 Memulai
 
-Premium hotels available in the system include:
-- The Ritz-Carlton Jakarta
-- Four Seasons Hotel Jakarta
-- Mandarin Oriental Jakarta
-- The St. Regis Bali Resort
-- Four Seasons Resort Bali
-- The Mulia Bali
-- And more...
-
-## 💳 Payment Options
-
-The system supports various payment methods:
-- Credit Card
-- Debit Card
-- E-Wallet (Gopay, OVO, DANA, ShopeePay)
-- Virtual Account
-
-Supported Banks:
-- BCA
-- BNI
-- Mandiri
-- BRI
-- CIMB
-- Permata
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8 or higher
+### Prasyarat
+- Python 3.8 atau lebih tinggi
 - pip (Python package manager)
-- Web browser (Chrome, Firefox, or Safari recommended)
+- Web browser (Chrome, Firefox, atau Safari direkomendasikan)
 
-### Installation Steps
+### Langkah-langkah Instalasi
 
-1. Clone the repository or download the project files:
+1. Clone repository atau unduh file proyek:
 ```bash
 git clone <your-repository-url>
 cd travel-agent-project
 ```
 
-2. Create and activate a virtual environment (recommended):
+2. Buat dan aktifkan virtual environment (direkomendasikan):
 ```bash
 # Windows
 python -m venv venv
@@ -79,23 +52,23 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-3. Install required dependencies:
+3. Install dependensi yang diperlukan:
 ```bash
 pip install flask requests
 ```
 
-### Running the Application
+### Menjalankan Aplikasi
 
-1. Start the Payment Service first:
+1. Mulai Layanan Pembayaran terlebih dahulu:
 ```bash
 cd payment_service
 python payment_service.py
 ```
-The service will run on http://localhost:5002
+Layanan akan berjalan di http://localhost:5002
 
-2. Open a new terminal and start the Booking Service:
+2. Buka terminal baru dan mulai Layanan Pemesanan:
 ```bash
 cd booking_service
 python booking_service.py
 ```
-The service will run on http://localhost:5001
+Layanan akan berjalan di http://localhost:5001
